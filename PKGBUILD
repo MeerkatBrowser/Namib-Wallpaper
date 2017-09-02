@@ -13,8 +13,8 @@ install=$pkgname.install
 
 package() {
     install -d ${pkgdir}/usr/share/backgrounds/namib
-    install -m644 namib-wallpapers/backgrounds/namib/* "${pkgdir}/usr/share/backgrounds/namib"
+    install -m644 Namib-Wallpapers/backgrounds/namib/* "${pkgdir}/usr/share/backgrounds/namib"
 
     install -d ${pkgdir}/usr/share/backgrounds/namib/config
-    install -m644 namib-wallpapers/namib-backgrounds.xml "${pkgdir}/usr/share/backgrounds/namib/config"
+    install -m644 Namib-Wallpapers/mate-backgrounds.xml "${pkgdir}/usr/share/backgrounds/namib/config"
 }

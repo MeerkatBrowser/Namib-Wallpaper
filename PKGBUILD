@@ -1,5 +1,5 @@
 pkgname=namib-wallpapers
-pkgver=17.09
+pkgver=17.11
 pkgrel=1
 pkgdesc='Wallpapers for Namib GNU/Linux'
 arch=(any)

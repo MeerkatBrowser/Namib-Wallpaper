@@ -5,7 +5,6 @@ pkgdesc='Wallpapers for Namib GNU/Linux'
 arch=(any)
 license=(GPL)
 url="https://github.com/MeerkatBrowser/Namib-Wallpapers"
-conflicts=('mate-backgrounds')
 source=("git+$url.git")
 sha256sums=('SKIP')
 
